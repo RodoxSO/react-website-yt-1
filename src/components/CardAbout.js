@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-export const CardItem = (props) => {
+export const CardAbout = (props) => {
   return (
     <>
         <li className='cards__item'>
@@ -12,7 +12,9 @@ export const CardItem = (props) => {
                 </figure>
                 <div className='cards__item__info'>
                   <h5 className='cards__item__price'>{props.text_price}</h5>
-                  <h5 className='cards__item__text'>{props.text}</h5>
+                  <h5 className='cards__about__text'>{props.line1}<br /><br /></h5>
+                  <h4 className='cards__about__text'>{props.line2}<br /><br /></h4>
+                  <h4 className='cards__about__text'>{props.line3}<br /><br /></h4>
                 </div>
             </Link>
         </li>

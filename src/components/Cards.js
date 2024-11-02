@@ -15,21 +15,21 @@ function Cards() {
                         text_price='From £17/h'
                         text='Clean and organised house? We will do it for you.' 
                         label='Residencial' 
-                        path='/Services' 
+                        path='#' 
                     />
                     <CardItem 
                         src='images/card_office.jpg'
                         text_price='From £20/h'
                         text='Leave the cleaning of your company in the good hands.' 
                         label='Commercial and Industrial' 
-                        path='/Services' 
+                        path='#' 
                     />
                     <CardItem 
                         src='images/card_airbnb.jpg'
                         text_price='From £20/h'
                         text='Offer the best experience to your customer.' 
                         label='AIRBNB' 
-                        path='/Services' 
+                        path='#' 
                     />
                 </ul>
             </div>

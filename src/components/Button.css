@@ -24,6 +24,15 @@
     transition: all 0.3s ease-out;
 }
 
+.btn--gallery{
+    background-color: #000;
+    color: #fff;
+    padding: 8PX 20PX;
+    border: 5px solid var(--primary);
+    transition: all 0.3s ease-out;
+    align-items: center;
+}
+
 .btn--medium{
     padding: 8px 20px;
     font-size: 20px;

@@ -1,0 +1,27 @@
+.contact_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+    background-color: red;
+}
+
+.info_left {
+    background-image: url('/public/images/contact_div_image.jpg');
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 0rem;
+    background-color: silver;
+    width: calc((100% / 3) - 3rem);
+  }
+
+  .form_right {
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 0rem;
+    background-color: rgb(47, 45, 192);
+    width: calc((100% / 3) - 3rem);
+  }
